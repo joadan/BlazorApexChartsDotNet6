@@ -1,0 +1,30 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<ApexChart TItem=SampleData>
+    <ApexPointSeries TItem=SampleData Items=data SeriesType=SeriesType.Pie XValue="e=>e.Name" YValue="e=>e.Value">
+
+    </ApexPointSeries>
+
+</ApexChart>
+
+
+@code {
+    private List<SampleData> data = new();
+
+    protected override void OnInitialized()
+    {
+
+
+        data.Add(new SampleData { Name = "Red", Value = 123 });
+        data.Add(new SampleData { Name = "Blue", Value = 45 });
+        data.Add(new SampleData { Name = "White", Value = 100 });
+    }
+
+    private class SampleData
+    {
+        public string Name { get; set; } = "";
+        public int Value { get; set; } = 10;
+    }
+}

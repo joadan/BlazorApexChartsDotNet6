@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32120.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApexChartsDotNet6", "BlazorApexChartsDotNet6\BlazorApexChartsDotNet6.csproj", "{5A5D98CA-5084-4F00-AD97-3C819F9AEE0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A5D98CA-5084-4F00-AD97-3C819F9AEE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5D98CA-5084-4F00-AD97-3C819F9AEE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5D98CA-5084-4F00-AD97-3C819F9AEE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5D98CA-5084-4F00-AD97-3C819F9AEE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BC53E81-D50C-4ABE-9BA6-AEC2300CC09F}
+	EndGlobalSection
+EndGlobal
